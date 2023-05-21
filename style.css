@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f5f5f5;
+}
+
+header {
+    background: #333;
+    padding: 20px 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+header nav ul li a:hover {
+    background: white;
+    color: black;
+    border: 1px solid green;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.container p {
+    text-align: center;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.button-container {
+    display: inline-block;
+    margin-right: 16px;
+}
+
+button {
+    background: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: green;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background: #333;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+footer p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    color: green;
+}
+
+/* ABOUT PAGE SPECIFIC */
+
+.about-container {
+    margin-top: 20px;
+}
+
+.about-container h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.about-container p {
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.about-container ul {
+    list-style: none;
+    text-align: center;
+    font-style: italic;
+    border: 1px solid #ccc;
+    
+}
+
+.about-container ul li {
+    margin: 10px;
+}
+
