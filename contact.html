@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Rock Paper Scissors</title>
+	</head>
+	<body>
+		<!-- HEADER -->
+		<header>
+			<h1>Rock Paper Scissors Game</h1>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<!-- MAIN -->
+		<div class="contact-container">
+			<div>
+				<section class="contact" id="contact">
+					<div class="contact-form-container">
+						<h2 className="contact-header">Contact Us:</h2>
+						<div class="contact-form">
+							<form
+								action="https://formspree.io/f/mdovjavr"
+								method="POST"
+							>
+								<div class="form-control">
+									<label for="name">Name: </label>
+									<input
+										type="text"
+										id="name"
+										name="sender-name"
+										placeholder="Enter Your Name"
+										class="input-field"
+										required
+									/>
+								</div>
+								<div class="form-control">
+									<label for="email">Email: </label>
+									<input
+										type="email"
+										id="email"
+										name="sender-email"
+										placeholder="Enter Your Email"
+										class="input-field"
+										required
+									/>
+								</div>
+								<div class="form-control" id="form-text">
+									<label for="message">Message</label>
+									<textarea
+										id="message"
+										cols="40"
+										rows="10"
+										placeholder="Enter Your Message"
+										name="message"
+										class="input-field"
+										required
+									></textarea>
+								</div>
+								<button
+									className="contact-btn"
+									type="submit"
+									value="Submit"
+									id="submit-btn"
+									class="submit-btn"
+								>
+									Submit
+								</button>
+							</form>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+
+		<!-- Staple footer for my apps -->
+		<footer class="footer">
+			<p>
+				&copy; 2023 | All Rights Reserved | Made with
+				<span class="heart">&hearts;</span> by
+				<a
+					href="https://www.linkedin.com/in/lisachampagne/"
+					target="_blank"
+					rel="noopener noreferrer"
+					>Lisa Miner</a
+				>
+			</p>
+		</footer>
+		<script src="script.js"></script>
+	</body>
+</html>
