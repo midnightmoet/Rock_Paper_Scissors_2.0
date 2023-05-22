@@ -105,7 +105,9 @@ footer p a:hover {
 /* ABOUT PAGE SPECIFIC */
 
 .about-container {
-    margin-top: 20px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
 }
 
 .about-container h2 {
@@ -144,4 +146,23 @@ footer p a:hover {
 .about-links a:hover {
     color: green;
 }
+
+@media screen and (max-width: 768px) {
+    .about-container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .about-container p {
+        font-size: 16px;
+    }
+
+    .about-container ul {
+        font-size: 16px;
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+    
+
 
